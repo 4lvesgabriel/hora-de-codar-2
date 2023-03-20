@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex6</title>
+</head>
+<body>
+    <script>
+        var num1 = parseFloat(prompt("Digite o primeiro numero."))
+        var num2 = parseFloat(prompt("Digite o segundo numero."))
+        var num3 = parseFloat(prompt("Digite o terceiro numero."))
+        var num4 = parseFloat(prompt("Digite o quarto numero"));
+
+        var numeros = [num1,num2,num3,num4]
+
+        var pnum = numeros[0]
+        var unum = numeros[3]
+        var maior = Math.max.apply(null,numeros)
+
+        alert("Primeiro numero: " + pnum + "\nUltimo numero: " + unum + "\nNumero maior: " + maior);
+
+    </script>
+</body>
+</html>

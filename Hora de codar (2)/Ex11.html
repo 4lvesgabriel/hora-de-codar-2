@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex11</title>
+</head>
+<body>
+    <script>
+        var n1 = parseInt(prompt("Digite o primeiro valor:"));
+        var n2 = parseInt(prompt("Digite o segundo valor:"));
+
+        var op = parseInt(prompt("Escolha uma operaçõ: " + "\n(1)Adição,(2)Subtração,(3)Divisão,(4)Multiplicação"));
+
+        if(op == 1){
+            let res = (n1 + n2)
+            alert("Resultado da adição: " + res)
+        }else if(op == 2){
+            let res = (n1 - n2)
+            alert("Resultado da subtração " + res)
+        }else if(op == 3){
+            let res = (n1 / n2)
+            alert("Resultado da divisão " + res)
+        }else if(op == 4){
+            let res = (n1*n2)
+            alert("Resultado da multiplicação " + res)
+        }else{
+            alert("Escolha uma das opções.")
+        }
+    </script>
+</body>
+</html>

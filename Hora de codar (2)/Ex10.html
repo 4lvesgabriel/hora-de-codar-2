@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex10</title>
+</head>
+<body>
+    <script>
+        var alt = parseFloat(prompt("Digite a sua altura em Cm (Ex: 1.76) (utilize ponto ao invés de virgula):"))
+        var sexo = parseFloat(prompt("Digite o seu sexo (1:feminino) (2:masculino):"));
+
+        if(sexo == 1){
+            var res = ((62.1 * alt) - 44.7)
+            alert("Seu peso ideal é de: " + res)
+        }else if(sexo == 2){
+            var res = ((72.7 * alt) - 58)
+            alert("Seu peso ideal é de: " + res)
+        }else{
+            alert("Por favor, insira apenas (1) ou (2) no sexo.")
+        }
+    </script>
+</body>
+</html>
